@@ -31,3 +31,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CMSS_C2D4E }}
           channelId: live
           projectId: cmss-c2d4e
+  
