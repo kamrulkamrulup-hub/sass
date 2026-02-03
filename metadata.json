@@ -1,0 +1,8 @@
+{
+  "name": "OpsPilot",
+  "description": "Production-grade Operations and CRM platform for multi-tenant teams, featuring Kanban, CRM pipelines, and Shopify/WooCommerce integrations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

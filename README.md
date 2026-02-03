@@ -1,11 +1,32 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# OpsPilot | Enterprise Operations Hub
 
-  <h1>Built with AI Studio</h2>
+Production-grade Operations and CRM platform for multi-tenant teams.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Getting Started (Preview Mode)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+OpsPilot uses a single-origin architecture where the Express server hosts both the API and the Frontend.
 
-</div>
+### Installation & Launch
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Build the frontend assets:
+   ```bash
+   npm run build
+   ```
+3. Start the unified server:
+   ```bash
+   npm start
+   ```
+
+## 🏗 Architecture
+- **Single Port**: The application runs on a single port (default 3000), serving API routes at `/api` and the React SPA at `/`.
+- **Frontend**: React 19 + TypeScript + Tailwind CSS
+- **Backend**: Node.js + Express + JWT
+- **Database**: PostgreSQL + Prisma ORM
+- **AI**: Gemini 3 Pro (Server-side tool calling)
+
+## 🔧 Connectivity
+If you see "API Offline", ensure you have run `npm run build` and that the server is running on the expected environment port.
